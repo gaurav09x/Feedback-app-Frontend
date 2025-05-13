@@ -19,7 +19,7 @@ const FeedbackForm = ({ onSuccess }) => {
     }
 
     try {
-      await axios.post('http://localhost:5000/feedback', formData);
+      await axios.post('https://feedback-app-backend-9ox0.onrender.com/feedback', formData);
       setSuccessMsg('Thank you for your feedback!');
       setFormData({ name: '', email: '', message: '' });
       onSuccess();
