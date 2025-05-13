@@ -7,7 +7,7 @@ const FeedbackList = ({ refreshFlag }) => {
   useEffect(() => {
     const fetchFeedbacks = async () => {
       try {
-        const res = await axios.get('http://localhost:5000/feedback');
+        const res = await axios.get('https://feedback-app-backend-9ox0.onrender.com/feedback');
         setFeedbacks(res.data);
       } catch (error) {
         console.error(error);
