@@ -34,3 +34,7 @@ npm run dev
 🌐 Deployed Vercel Link: 
 https://feedback-app-frontend-three.vercel.app/
 
+✅ Features
+- Feedback form with Name, Email, and Message.
+- Stylish UI with gradients, cards, and hover effects.
+- Displays submitted feedbacks.
