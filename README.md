@@ -1,12 +1,36 @@
-# React + Vite
+# 🌐 Feedback App Frontend (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend of the Feedback Submission App, built using **React (Vite)** and styled with **TailwindCSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- React (Vite)
+- TailwindCSS
+- Axios (for API calls)
+- Deployed on Vercel
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Local Development Setup
+
+### 1️ Clone the repository & navigate to frontend
+```bash
+git clone https://github.com/gaurav09x/Feedback-app-Frontend.git
+cd feedback-app-Frontend
+```
+### 2️⃣ Install dependencies
+```bash
+npm install
+```
+### 3️⃣ Change the Api URL to
+http://localhost:5000
+
+### 4️⃣ Run the development server
+```bash
+npm run dev
+```
+
+🌐 Deployed Vercel Link: 
+https://feedback-app-frontend-three.vercel.app/
+
