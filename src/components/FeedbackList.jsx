@@ -21,7 +21,7 @@ const FeedbackList = ({ refreshFlag }) => {
       <h2 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-400 mb-6 text-center">What are they saying</h2>
       <div className="space-y-4">
         {feedbacks.length === 0 && <p className="text-gray-300 text-center">No feedback yet.</p>}
-        {feedbacks.reverse().map(fb => (
+        {feedbacks.map(fb => (
           <div key={fb._id} className="bg-white/30 rounded-lg p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-200">
             <div className="flex justify-between items-center mb-2">
               <p className="font-semibold text-gray-900">{fb.name}</p>
